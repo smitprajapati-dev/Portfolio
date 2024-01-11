@@ -1,0 +1,90 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+
+body {
+  font-family: "Kalnia", serif;
+  font-family: "Rubik Glitch", system-ui;
+  font-family: "Spline Sans Mono", monospace;
+  font-family: "Ubuntu Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #02547d;
+  color: #fff;
+  text-align: center;
+  padding: 0.4em;
+}
+.Main{
+  margin-top: 5px;
+  display:flex;
+  background-color:#02547d;
+  justify-content: center;
+  align-items:center;
+  gap:20px;
+  height: 30px;
+  font-size:x-large;
+}
+.Main>a{
+  color:#9BA4BA;
+  text-decoration: none;
+}
+
+section {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color:#9BA4BA;
+}
+  @keyframes identifier {
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+h1{
+  animation: identifier 1s infinite;
+  color:#adadff;
+  font-family: 'Lemon', serif;
+}
+h2,
+h3 {
+  color: #333;
+}
+
+.portfolio-item {
+  margin-bottom: 2em;
+}
+.contectSection{
+  display:flex;
+  gap:20px;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
+.box{
+
+}
+.box:nth-child(1){
+  font-size:small;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #02547d;
+  color: #fff;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
